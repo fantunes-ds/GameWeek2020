@@ -7,6 +7,8 @@ public class CraftingTable : MonoBehaviour
 {
     [SerializeField] private Canvas m_blueprint = null;
     [SerializeField] private Inventory m_playerInventory = null;
+    [SerializeField] Transform spawnLocation = null;
+    
     private GameObject _gameObject;
 
     // Start is called before the first frame update
@@ -44,7 +46,9 @@ public class CraftingTable : MonoBehaviour
             return;
         
         GameObject go = Instantiate(p_itemPrefab.gameObject);
-        go.transform.position = transform.position + transform.up;
+        
+        if (spawnLocation)
+            go.transform.position = spawnLocation.position;
     }
 
     private bool CheckInventory(BluePrint p_itemPrefab)
