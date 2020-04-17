@@ -16,6 +16,7 @@ public class InGameMenu : MonoBehaviour
     private GameObject m_mainPanel;
     [SerializeField]
     private GameObject m_nextLevelPanel;
+    [SerializeField] GameObject[] m_stars = new GameObject[3];
     
     void Start()
     {
@@ -48,8 +49,14 @@ public class InGameMenu : MonoBehaviour
         m_soundPanel.SetActive(false);
     }
 
-    public void OpenNextLevel()
+    public void OpenNextLevel(int p_score)
     {
+        for (int i = 0; i < p_score; ++i)
+        {
+            if (m_stars[i])
+                m_stars[i].SetActive(true);
+        }
+        
         m_nextLevelPanel.SetActive(true);
         Time.timeScale = 0;
     }

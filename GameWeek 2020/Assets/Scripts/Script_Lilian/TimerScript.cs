@@ -23,7 +23,7 @@ public class TimerScript : MonoBehaviour
         Debug.Log("Times up with score : " + i);
 
         if (m_menu)
-            m_menu.OpenNextLevel();
+            m_menu.OpenNextLevel(i);
     }
 
     private int CalculateScore()
