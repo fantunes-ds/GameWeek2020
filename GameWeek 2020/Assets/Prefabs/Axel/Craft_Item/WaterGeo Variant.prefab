@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2307098825723663543}
   - component: {fileID: 6393129226720322589}
   - component: {fileID: 1113622989652974090}
+  - component: {fileID: 1218855745906788588}
   m_Layer: 0
   m_Name: WaterGeo Variant
   m_TagString: Untagged
@@ -74,6 +75,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Water
   icon: {fileID: 21300000, guid: d9b30edfdd23a1846a18053fe342d422, type: 3}
+--- !u!54 &1218855745906788588
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325212597780879854}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4845994161956364898
 GameObject:
   m_ObjectHideFlags: 0
