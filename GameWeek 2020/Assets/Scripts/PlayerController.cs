@@ -21,12 +21,12 @@ public class PlayerController : MonoBehaviour
     {
         if (GetSpeed() < m_maxSpeed)
         {
-            m_rb.AddForce((transform.forward + transform.right) * Input.GetAxis("Vertical") * m_speed);
-            m_rb.AddForce((transform.right - transform.forward) * Input.GetAxis("Horizontal") * m_speed);
+            m_rb.AddForce(transform.forward * Input.GetAxis("Vertical") * m_speed);
+            m_rb.AddForce(transform.right * Input.GetAxis("Horizontal") * m_speed);
         }
 
         if (Mathf.Abs(Input.GetAxis("Vertical")) > 0.3f || Mathf.Abs(Input.GetAxis("Horizontal")) > 0.3f)
-        m_playerObject.transform.eulerAngles = new Vector3(0, Mathf.Atan2(Input.GetAxis("Vertical") * -1.0f, Input.GetAxis("Horizontal")) * Mathf.Rad2Deg + 135.0f, 0);
+        m_playerObject.transform.eulerAngles = new Vector3(0, Mathf.Atan2(Input.GetAxis("Vertical") * -1.0f, Input.GetAxis("Horizontal")) * Mathf.Rad2Deg + 90.0f, 0);
 
         AnimateWheels();
     }
