@@ -26,11 +26,10 @@ public class TimerScript : MonoBehaviour
 
     private void TimesUp()
     {
-        int i = CalculateScore();
-        Debug.Log("Times up with score : " + i);
+        int score = CalculateScore();
 
         if (m_menu)
-            m_menu.OpenNextLevel(i);
+            m_menu.OpenNextLevel(score);
     }
 
     private int CalculateScore()
@@ -67,9 +66,6 @@ public class TimerScript : MonoBehaviour
         string timerString = m_timeInSeconds.ToString();
 
         if (m_timer)
-        {
-            Debug.Log(timerString);
             m_timer.text = timerString;
-        }
     }
 }
