@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &1215366641129417216
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2931037086597988877}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3148085, y: 0.17608261, z: 0.79125416}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &7578703641170422996
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2931037086597988877}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3, z: 3}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3099556390622988695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2931037086597988877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4b0f26d4c1f8343badeeca63eba6db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Wood
+  icon: {fileID: 21300000, guid: ac7a3a0e9aa70744086cce76253b1b92, type: 3}
+--- !u!1001 &6596875862239615748
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.08027685
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.09121852
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.3726579
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 11e5f7f648925b54f8e4f649e62530e6,
+        type: 3}
+      propertyPath: m_Name
+      value: WoodGeo Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 11e5f7f648925b54f8e4f649e62530e6, type: 3}
+--- !u!1 &2931037086597988877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 11e5f7f648925b54f8e4f649e62530e6,
+    type: 3}
+  m_PrefabInstance: {fileID: 6596875862239615748}
+  m_PrefabAsset: {fileID: 0}
