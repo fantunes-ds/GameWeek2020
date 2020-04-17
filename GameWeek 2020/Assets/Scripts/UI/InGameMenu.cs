@@ -9,14 +9,19 @@ public class InGameMenu : MonoBehaviour
     [SerializeField]
     private string m_sceneToLoad;
     [SerializeField]
+    private string m_nextLevel;
+    [SerializeField]
     private GameObject m_soundPanel;
     [SerializeField]
     private GameObject m_mainPanel;
+    [SerializeField]
+    private GameObject m_nextLevelPanel;
     
     void Start()
     {
         m_mainPanel.SetActive(false);
         m_soundPanel.SetActive(false);
+        m_nextLevelPanel.SetActive(false);
     }
 
     public void OpenSoundPanel()
@@ -43,6 +48,12 @@ public class InGameMenu : MonoBehaviour
         m_soundPanel.SetActive(false);
     }
 
+    public void OpenNextLevel()
+    {
+        m_nextLevelPanel.SetActive(true);
+        Time.timeScale = 0;
+    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -78,5 +89,11 @@ public class InGameMenu : MonoBehaviour
     {
         CloseAllPanels();
         Time.timeScale = 1;
+    }
+
+    public void GoToNextLevel()
+    {
+        Time.timeScale = 1;
+        SceneManager.LoadScene(m_nextLevel);
     }
 }
