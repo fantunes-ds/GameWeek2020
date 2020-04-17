@@ -2195,12 +2195,12 @@ PrefabInstance:
     - target: {fileID: 3712022214989860477, guid: a88ce9f983e8c1b41a582939bf22f592,
         type: 3}
       propertyPath: m_FillAmount
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3712022214989860477, guid: a88ce9f983e8c1b41a582939bf22f592,
         type: 3}
       propertyPath: m_PreserveAspect
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3712022215182275003, guid: a88ce9f983e8c1b41a582939bf22f592,
         type: 3}
@@ -2240,7 +2240,7 @@ PrefabInstance:
     - target: {fileID: 3712022215230542199, guid: a88ce9f983e8c1b41a582939bf22f592,
         type: 3}
       propertyPath: m_FillAmount
-      value: 0.4
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3712022215403160570, guid: a88ce9f983e8c1b41a582939bf22f592,
         type: 3}
@@ -2402,7 +2402,7 @@ PrefabInstance:
     - target: {fileID: 3712022216126541671, guid: a88ce9f983e8c1b41a582939bf22f592,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3712022216126541671, guid: a88ce9f983e8c1b41a582939bf22f592,
         type: 3}
@@ -5535,7 +5535,7 @@ PrefabInstance:
     - target: {fileID: 4204600567997449186, guid: 9e7e136452022e446b4b7d1ed55eae24,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4204600567997449186, guid: 9e7e136452022e446b4b7d1ed55eae24,
         type: 3}
@@ -10665,7 +10665,7 @@ Transform:
   - {fileID: 754101425}
   - {fileID: 2052561150}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1426882060
 GameObject:
@@ -12909,7 +12909,7 @@ Transform:
   - {fileID: 1068314878}
   - {fileID: 209316240}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1771630422
 PrefabInstance:
@@ -14074,6 +14074,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_scoreObjective
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8632220236747129248, guid: df3ca1d07fd6d5b40bd2f4e1a7042735,
+        type: 3}
+      propertyPath: m_countryScore
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3ca1d07fd6d5b40bd2f4e1a7042735, type: 3}
