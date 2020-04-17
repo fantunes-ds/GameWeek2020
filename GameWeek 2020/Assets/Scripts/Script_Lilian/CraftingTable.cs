@@ -49,6 +49,12 @@ public class CraftingTable : MonoBehaviour
         
         if (spawnLocation)
             go.transform.position = spawnLocation.position;
+
+        m_playerInventory.AddNewItem(go);
+        go.SetActive(false);
+        
+        if(m_blueprint)
+            m_blueprint.gameObject.SetActive(false);
     }
 
     private bool CheckInventory(BluePrint p_itemPrefab)
