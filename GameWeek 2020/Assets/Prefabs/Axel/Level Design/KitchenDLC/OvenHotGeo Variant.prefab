@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &4810220871738283584
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3739464006782681625}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5806445, y: 1.5071139, z: 1.5200585}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &4667087823523502864
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -135.90996
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.2440715
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -55.13535
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 5123cd70944ce5a40a601a34026c2963,
+        type: 3}
+      propertyPath: m_Name
+      value: OvenHotGeo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5123cd70944ce5a40a601a34026c2963, type: 3}
+--- !u!1 &3739464006782681625 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 5123cd70944ce5a40a601a34026c2963,
+    type: 3}
+  m_PrefabInstance: {fileID: 4667087823523502864}
+  m_PrefabAsset: {fileID: 0}
