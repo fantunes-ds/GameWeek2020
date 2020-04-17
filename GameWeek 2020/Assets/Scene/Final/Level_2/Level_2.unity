@@ -802,6 +802,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invisible Wall (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
       propertyPath: m_Enabled
@@ -1260,6 +1265,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invisible Wall (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
@@ -2001,6 +2011,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invisible Wall (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
@@ -3156,6 +3171,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invisible Wall (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
       propertyPath: m_Enabled
@@ -3413,6 +3433,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invisible Wall (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
@@ -3710,6 +3735,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invisible Wall (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
@@ -4736,6 +4766,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invisible Wall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
       propertyPath: m_Enabled
@@ -4814,6 +4849,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invisible Wall (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
@@ -5490,7 +5530,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2069117802}
-  m_RootOrder: 5
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &893473005 stripped
 Transform:
@@ -7338,6 +7378,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invisible Wall (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
       propertyPath: m_Enabled
@@ -7565,6 +7610,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invisible Wall (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
@@ -8138,10 +8188,10 @@ Transform:
   - {fileID: 17236164}
   - {fileID: 206137665}
   - {fileID: 533344868}
+  - {fileID: 523787870}
   - {fileID: 673566304}
   - {fileID: 1778967109}
   - {fileID: 1359414052}
-  - {fileID: 523787870}
   - {fileID: 1010963936}
   - {fileID: 48685501}
   - {fileID: 1715475375}
@@ -8168,23 +8218,23 @@ Transform:
   - {fileID: 1140360155}
   - {fileID: 915225472}
   - {fileID: 414433454}
+  - {fileID: 1906451556}
   - {fileID: 896385392}
   - {fileID: 398164226}
   - {fileID: 1942219498}
   - {fileID: 541816860}
-  - {fileID: 1906451556}
   - {fileID: 1784607648}
+  - {fileID: 209840260}
   - {fileID: 659766114}
   - {fileID: 1581930622}
   - {fileID: 2110097654}
-  - {fileID: 209840260}
+  - {fileID: 440676065}
   - {fileID: 74620723}
   - {fileID: 541840347}
   - {fileID: 893473005}
   - {fileID: 1591114492}
   - {fileID: 1581290165}
   - {fileID: 1541096196}
-  - {fileID: 440676065}
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8657,6 +8707,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invisible Wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
@@ -9638,6 +9693,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invisible Wall (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
@@ -10872,6 +10932,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Invisible Wall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
       propertyPath: m_Enabled
@@ -10950,6 +11015,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Invisible Wall (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263434256404562041, guid: eefe0ece3c58d1146a656d31baa7c739,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6555609246766062190, guid: eefe0ece3c58d1146a656d31baa7c739,
         type: 3}
@@ -11053,9 +11123,9 @@ Transform:
   - {fileID: 2099658707}
   - {fileID: 365322760}
   - {fileID: 1157189516}
+  - {fileID: 890095217}
   - {fileID: 1463323234}
   - {fileID: 583303445}
-  - {fileID: 890095217}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
