@@ -76,6 +76,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Smartphone
   icon: {fileID: 21300000, guid: 30ef10ef9da867a4e8404c74d755abdb, type: 3}
+  m_dropAudio: {fileID: 8300000, guid: a57236f0a5dac304487c98c0889ba2a2, type: 3}
 --- !u!114 &6221886047275158757
 MonoBehaviour:
   m_ObjectHideFlags: 0

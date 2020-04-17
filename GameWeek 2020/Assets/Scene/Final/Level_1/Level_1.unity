@@ -11782,6 +11782,11 @@ PrefabInstance:
       propertyPath: m_maxSpeed
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 6305986993616523260, guid: e7da979bdac707849986fc9707dddc9f,
+        type: 3}
+      propertyPath: m_pickupSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 1dc6227b01aa6f048b3a35a1f78921c6, type: 3}
     - target: {fileID: 6305986993616523261, guid: e7da979bdac707849986fc9707dddc9f,
         type: 3}
       propertyPath: m_inventoryImages.Array.data[0]
@@ -13099,6 +13104,11 @@ PrefabInstance:
       propertyPath: m_scoreObjective
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 8632220236066867894, guid: df3ca1d07fd6d5b40bd2f4e1a7042735,
+        type: 3}
+      propertyPath: m_submitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c2b2877488676db4c90b8112babdaf3d, type: 3}
     - target: {fileID: 8632220236344914192, guid: df3ca1d07fd6d5b40bd2f4e1a7042735,
         type: 3}
       propertyPath: m_flagIconTarget
@@ -13147,6 +13157,11 @@ PrefabInstance:
       propertyPath: m_timeToWait
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8632220236344914192, guid: df3ca1d07fd6d5b40bd2f4e1a7042735,
+        type: 3}
+      propertyPath: m_submitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c2b2877488676db4c90b8112babdaf3d, type: 3}
     - target: {fileID: 8632220236747129248, guid: df3ca1d07fd6d5b40bd2f4e1a7042735,
         type: 3}
       propertyPath: m_flagIconTarget
@@ -13183,6 +13198,11 @@ PrefabInstance:
       propertyPath: m_scoreObjective
       value: 60
       objectReference: {fileID: 0}
+    - target: {fileID: 8632220236747129248, guid: df3ca1d07fd6d5b40bd2f4e1a7042735,
+        type: 3}
+      propertyPath: m_submitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: c2b2877488676db4c90b8112babdaf3d, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df3ca1d07fd6d5b40bd2f4e1a7042735, type: 3}
 --- !u!1001 &1538481399
@@ -20452,6 +20472,16 @@ PrefabInstance:
       propertyPath: spawnLocation
       value: 
       objectReference: {fileID: 609300415}
+    - target: {fileID: 4801465537068745010, guid: 482f4710f127252418fc03b788e15c82,
+        type: 3}
+      propertyPath: m_craftInProgressSound
+      value: 
+      objectReference: {fileID: 8300000, guid: d175ea4029faa8e4d9bde7a99e6e09f8, type: 3}
+    - target: {fileID: 4801465537068745010, guid: 482f4710f127252418fc03b788e15c82,
+        type: 3}
+      propertyPath: m_craftFinishedSound
+      value: 
+      objectReference: {fileID: 8300000, guid: ba8f628695945e84b849326bd82bca87, type: 3}
     - target: {fileID: 4801465537068745011, guid: 482f4710f127252418fc03b788e15c82,
         type: 3}
       propertyPath: m_Size.x

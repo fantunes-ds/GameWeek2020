@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Managers;
 using UnityEngine;
 
 public class PickUpSystem : MonoBehaviour
 {
     [SerializeField] private Inventory m_inventory = null;
+    [SerializeField] private AudioClip m_pickupSound;
     [SerializeField] private GameObject m_collectibleItem = null;
-    
     public void Initialize(Inventory p_inventory)
     {
         m_inventory = p_inventory;
+        m_pickupSound = GetComponent<PlayerController>().m_pickupSound;
     }
 
     private void Update()
@@ -21,6 +23,7 @@ public class PickUpSystem : MonoBehaviour
             {
                 m_collectibleItem.gameObject.SetActive(false);
                 m_collectibleItem = null;
+                AudioManager.instance.PlaySoundOnce(m_pickupSound);
             }
         }
     }

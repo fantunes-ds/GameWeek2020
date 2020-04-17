@@ -72,6 +72,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Pearl
   icon: {fileID: 21300000, guid: 98bfbca5e28d46f41a4fc1bbcf547bcd, type: 3}
+  m_dropAudio: {fileID: 8300000, guid: a57236f0a5dac304487c98c0889ba2a2, type: 3}
 --- !u!1001 &644169316331015935
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Managers;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,6 +26,8 @@ public class Score : MonoBehaviour
     [SerializeField] private Image m_flagIconTarget;
     [SerializeField] private Image m_gaugeObj;
     [SerializeField] private Image m_gaugeCurrent;
+
+    [SerializeField] private AudioClip m_submitSound;
 
     public float GetScore()
     {
@@ -96,6 +99,8 @@ public class Score : MonoBehaviour
             if (m_countryScore < 0)
                 m_countryScore = 0;
         }
+
+        AudioManager.instance.PlaySoundOnce(m_submitSound);
         
         Destroy(other.gameObject);
     }

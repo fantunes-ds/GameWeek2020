@@ -56,6 +56,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Wood
   icon: {fileID: 21300000, guid: ac7a3a0e9aa70744086cce76253b1b92, type: 3}
+  m_dropAudio: {fileID: 8300000, guid: a57236f0a5dac304487c98c0889ba2a2, type: 3}
 --- !u!1001 &6596875862239615748
 PrefabInstance:
   m_ObjectHideFlags: 0

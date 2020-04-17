@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Managers;
 using UnityEngine;
 
 public class CraftingTable : MonoBehaviour
@@ -8,7 +9,10 @@ public class CraftingTable : MonoBehaviour
     [SerializeField] private Canvas m_blueprint = null;
     [SerializeField] private Inventory m_playerInventory = null;
     [SerializeField] Transform spawnLocation = null;
-    
+
+    [SerializeField] private AudioClip m_craftInProgressSound;
+    [SerializeField] private AudioClip m_craftFinishedSound;
+
     private GameObject _gameObject;
 
     // Start is called before the first frame update
@@ -55,6 +59,14 @@ public class CraftingTable : MonoBehaviour
         
         if(m_blueprint)
             m_blueprint.gameObject.SetActive(false);
+        StartCoroutine(PlaySounds());
+    }
+
+    IEnumerator PlaySounds()
+    {
+        AudioManager.instance.PlaySoundOnce(m_craftInProgressSound);
+        yield return new WaitForSeconds(m_craftFinishedSound.length);
+        AudioManager.instance.PlaySoundOnce(m_craftFinishedSound);
     }
 
     private bool CheckInventory(BluePrint p_itemPrefab)

@@ -20,7 +20,8 @@ namespace Managers
         public AudioSource m_ambientMusicAudioSource;
 
         [Header("Music AudioClips")]
-        public AudioClip m_musicClip;
+        public AudioClip m_menuMusicClip;
+        public AudioClip m_gameMusicClip;
         
         [Header("FX AudioClips")]
         public AudioClip m_fxAudioClip;
@@ -50,7 +51,7 @@ namespace Managers
             }
             else
             {
-                m_ambientMusicAudioSource.clip = m_musicClip;
+                m_ambientMusicAudioSource.clip = m_menuMusicClip;
                 m_ambientMusicAudioSource.Play();
             }
         }
@@ -70,7 +71,7 @@ namespace Managers
             {
                 m_isMusicPlaying = true;
                 m_ambientMusicAudioSource.loop = true;
-                m_ambientMusicAudioSource.clip = m_musicClip;
+                m_ambientMusicAudioSource.clip = m_gameMusicClip;
                 SetVolume(m_ambientMusicAudioSource, m_ambientMusicAudioSource.volume);
                 m_ambientMusicAudioSource.Play();
             }

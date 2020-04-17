@@ -10,6 +10,9 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private Transform[] m_wheels;
 
+    public AudioClip m_pickupSound;
+
+
     // Start is called before the first frame update
     void Start()
     {

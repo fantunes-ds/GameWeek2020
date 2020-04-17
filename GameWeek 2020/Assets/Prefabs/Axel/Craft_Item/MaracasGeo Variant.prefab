@@ -92,6 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Maracas
   icon: {fileID: 21300000, guid: 2886673a4af77ef4b941ce4c34e9ae83, type: 3}
+  m_dropAudio: {fileID: 8300000, guid: a57236f0a5dac304487c98c0889ba2a2, type: 3}
 --- !u!54 &3647665000246325722
 Rigidbody:
   m_ObjectHideFlags: 0

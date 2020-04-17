@@ -56,6 +56,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Tissu
   icon: {fileID: 21300000, guid: 8767df379066f234fa3bffed9246184c, type: 3}
+  m_dropAudio: {fileID: 8300000, guid: a57236f0a5dac304487c98c0889ba2a2, type: 3}
 --- !u!1001 &3262025541599412186
 PrefabInstance:
   m_ObjectHideFlags: 0
