@@ -53,13 +53,21 @@ public class Inventory : MonoBehaviour
     {
         SelectItem();
         
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.JoystickButton3))
             ThrowSelectedItem(m_itemSelection);
     }
 
     private void SelectItem()
     {
         int newSelection = m_itemSelection + (int)(Input.GetAxis("Mouse ScrollWheel") * 10.0f) + 4;
+        if (Input.GetAxis("HorizontalPad") < 0)
+            newSelection = 0;
+        else if (Input.GetAxis("HorizontalPad") > 0)
+            newSelection = 1;
+        else if (Input.GetAxis("VerticalPad") < 0)
+            newSelection = 2;
+        else if (Input.GetAxis("VerticalPad") > 0)
+            newSelection = 3;
         m_itemSelection = newSelection % m_maxInventory;
     }
 

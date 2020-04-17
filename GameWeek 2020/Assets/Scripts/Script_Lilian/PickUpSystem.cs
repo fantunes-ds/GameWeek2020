@@ -15,7 +15,7 @@ public class PickUpSystem : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && m_collectibleItem)
+        if ((Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.Joystick1Button0)) && m_collectibleItem)
         {
             if (m_inventory.AddNewItem(m_collectibleItem))
             {
