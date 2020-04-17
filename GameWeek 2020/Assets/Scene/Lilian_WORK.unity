@@ -133,6 +133,8 @@ GameObject:
   - component: {fileID: 23698196}
   - component: {fileID: 23698195}
   - component: {fileID: 23698194}
+  - component: {fileID: 23698198}
+  - component: {fileID: 23698197}
   m_Layer: 0
   m_Name: SmallDoor 1
   m_TagString: Untagged
@@ -223,6 +225,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23698192}
   m_Mesh: {fileID: -7800480379681081259, guid: 8637e9d0e9c6d7248bf6ed0fde60f22a, type: 3}
+--- !u!65 &23698197
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23698192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.305261, y: 1.6171403, z: 5.5399847}
+  m_Center: {x: 0, y: -0.9400346, z: -0.0075000525}
+--- !u!114 &23698198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 23698192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0449c31c59453c64089e0931a8fafa8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myAnimator: {fileID: 23698194}
 --- !u!1001 &61027079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1698,7 +1726,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &897807591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4542,7 +4570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c70adcc2dee1834d967eb8285e184b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_timeInMinute: 0.1
+  m_timeInMinute: 50000
   m_timeInSeconds: 0
   m_countryScores:
   - {fileID: 1605860732}
