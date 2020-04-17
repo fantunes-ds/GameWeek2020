@@ -9,11 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8076238713524207424}
-  - component: {fileID: 1445756569936790808}
   - component: {fileID: 8812282795128466132}
   - component: {fileID: 1719669825699574674}
   - component: {fileID: 2968497788352533753}
   - component: {fileID: 3647665000246325722}
+  - component: {fileID: -1571479925949225032}
   m_Layer: 0
   m_Name: MaracasGeo Variant
   m_TagString: Untagged
@@ -36,19 +36,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1445756569936790808
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5066489696453446995}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.61702275, y: 1.1420152, z: 1.1580467}
-  m_Center: {x: 0.71948695, y: 0.8275691, z: 0.08455753}
 --- !u!65 &8812282795128466132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109,6 +96,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &-1571479925949225032
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5066489696453446995}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &8535561806028730592
 GameObject:
   m_ObjectHideFlags: 0
