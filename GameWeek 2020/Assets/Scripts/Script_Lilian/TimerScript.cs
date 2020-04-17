@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TimerScript : MonoBehaviour
 {
@@ -10,9 +12,14 @@ public class TimerScript : MonoBehaviour
     [SerializeField] private float m_timeInSeconds = 0;
     [SerializeField] private Score[] m_countryScores = new Score[3];
     public InGameMenu m_menu = null;
+    public GameObject m_timerText = null;
+    private TextMeshProUGUI m_timer = null;
     
     private void Start()
     {
+        if (m_timerText.GetComponent<TextMeshProUGUI>())
+            m_timer = m_timerText.GetComponent<TextMeshProUGUI>();
+        
         m_timeInSeconds = m_timeInMinute * 60.0f;
         StartCoroutine(nameof(StartTimer));
     }
@@ -43,7 +50,7 @@ public class TimerScript : MonoBehaviour
     {
         WaitForSecondsRealtime timeToWait = new WaitForSecondsRealtime(1);
         m_timeInSeconds -= 1.0f;
-
+        UpdateUI();
         yield return timeToWait;
         
         if (m_timeInSeconds > 0)
@@ -52,6 +59,17 @@ public class TimerScript : MonoBehaviour
         {
             TimesUp();
             yield return null;
+        }
+    }
+
+    private void UpdateUI()
+    {
+        string timerString = m_timeInSeconds.ToString();
+
+        if (m_timer)
+        {
+            Debug.Log(timerString);
+            m_timer.text = timerString;
         }
     }
 }
